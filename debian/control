@@ -13,5 +13,5 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Homepage: https://github.com/camilo/noeqd
 Description:Fault-tolerant network service for meaningful GUID generation
  Noqed is fault-tolerant network service for meaningful GUID generation
- that generates 64 bits long roughly sortable unique ids
+ it generates 64 bits long ids that are roughly sortable
 
