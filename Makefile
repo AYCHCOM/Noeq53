@@ -5,3 +5,6 @@ build:
 	go build -o bin/noeqd
 clean:
 	if [ -d bin ]; then  rm -f bin/* ;fi
+
+fetch:
+	# noop
