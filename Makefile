@@ -11,5 +11,6 @@ apt-builder-fetch:
 	# noop
 apt-builder-deps:
 	add-apt-repository ppa:gophers/go
+	apt-get update
 apt-builder-build:
 	debuild binary
