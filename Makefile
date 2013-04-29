@@ -13,4 +13,4 @@ apt-builder-deps:
 	add-apt-repository ppa:gophers/go
 	apt-get update
 apt-builder-build:
-	debuild binary
+	debuild -i -us -uc -b
