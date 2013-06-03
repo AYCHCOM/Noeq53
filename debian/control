@@ -4,7 +4,7 @@ Source: noeqd
 Section: misc
 Priority: optional
 Maintainer: Camilo Lopez <camilo@shopify.com>
-Build-Depends: debhelper (>= 7), golang-stable (>= 1:1.0.2) | golang (>= 1:1-5)
+Build-Depends: debhelper (>= 7), golang-stable (>= 1:1.1) | golang (>= 1:1-5)
 Standards-Version: 3.9.3
 
 Package: noeqd
