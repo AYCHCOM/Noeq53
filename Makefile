@@ -12,5 +12,6 @@ apt-builder-fetch:
 apt-builder-deps:
 	add-apt-repository ppa:gophers/go
 	apt-get update
+	mk-build-deps
 apt-builder-build:
 	debuild -i -us -uc -b
